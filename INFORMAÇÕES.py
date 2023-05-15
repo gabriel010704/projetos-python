@@ -1,0 +1,32 @@
+from time import sleep
+
+print('''true [ VERDADEIRO ]
+false [ FALSO ]''')
+sleep(2)
+
+print('-  '*15)
+a = input('''DIGITE ALGO
+->''')
+print('QUAL O TIPO PRIMITIVO DE ',a, type(a))
+sleep(1)
+print('-  '*15)
+print('TEM ESPAÇOS? ', a.isspace())
+print('-  '*15)
+sleep(1)
+print('É UM NÚMERO? ',a.isnumeric())
+sleep(1)
+print('-  '*15)
+print('É ALFABETICO? ',a.isalpha())
+sleep(1)
+print('-  '*15)
+print('É ALFANÚMERICO',a.isalnum())
+sleep(1)
+print('-  '*15)
+print('ESTÁ EM MAIÚSCULAS? ',a.isupper())
+sleep(1)
+print('-  '*15)
+print('ESTÁ EM MINÚSCULAS? ',a.islower())
+sleep(1)
+print('-  '*15)
+print('ESTÁ CAPITALIZADA? ',a.istitle())
+print('-  '*15)
